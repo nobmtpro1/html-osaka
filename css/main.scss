@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// Include any default variable overrides here (though functions won't be available)
+@import "variable";
+
+@import "../bootstrap/scss/bootstrap.scss";
+
+// Then add additional custom code here
+
+@import "bootstrap-override";
+@import "font";
+@import "mixin";
+@import "reset";
+@import "general";
+
+@import "./pages/home";
+
+//--------import_component---------
+@import "./component/header";
+@import "./component/footer";

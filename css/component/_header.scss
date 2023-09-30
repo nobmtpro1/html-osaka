@@ -1,0 +1,111 @@
+.component-header {
+  background: $primary;
+
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+
+    .logo {
+      width: 132px;
+      height: auto;
+      transition: all 300ms ease;
+      display: block;
+      &:hover {
+        transform: scale(1.1);
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 48px;
+
+      .menu {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 32px;
+        list-style: none;
+        margin-bottom: 0;
+
+        li {
+          a {
+            color: white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-decoration: none;
+            position: relative;
+
+            display: block;
+            
+
+            &:hover {
+              &::before {
+                width: 100%;
+              }
+            }
+
+            &::before {
+              transition: all 300ms ease;
+              position: absolute;
+              content: "";
+              bottom: -5px;
+              left: 0;
+              width: 0;
+              height: 1px;
+              background: white;
+              display: block;
+            }
+          }
+        }
+      }
+
+      .phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        color: white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+
+        span {
+          display: block;
+          position: relative;
+
+          &:hover {
+            &::before {
+              width: 100%;
+            }
+          }
+
+          &::before {
+            transition: all 300ms ease;
+            position: absolute;
+            content: "";
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: white;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
