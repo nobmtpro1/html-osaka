@@ -1,0 +1,27 @@
+.page-kich-hoat-bao-hanh {
+  section.banner {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  section.form {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url("../../images/bg5.png");
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .wrap {
+      @include mobile {
+        width: 95vw;
+      }
+      width: 686px;
+      color: #666;
+    }
+  }
+}

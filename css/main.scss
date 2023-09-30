@@ -7,13 +7,13 @@
 
 // Then add additional custom code here
 
-@import "bootstrap-override";
 @import "font";
 @import "mixin";
 @import "reset";
 @import "general";
 
 @import "./pages/home";
+@import "./pages/kich-hoat-bao-hanh";
 
 //--------import_component---------
 @import "./component/header";

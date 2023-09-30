@@ -177,7 +177,11 @@
   }
 
   section.promotion {
+    @include mobile {
+      margin-bottom: 50px;
+    }
     background: rgba(38, 46, 98, 0.05);
+
     .wrap {
       padding-top: 32px;
       padding-bottom: 32px;
