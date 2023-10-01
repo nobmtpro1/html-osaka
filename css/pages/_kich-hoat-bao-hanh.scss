@@ -4,7 +4,7 @@
     padding-bottom: 120px;
     background: url("../../images/bg5.png");
     background-position: top left;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
     .wrap {
@@ -13,6 +13,21 @@
       }
       width: 686px;
       color: #666;
+    }
+
+    .product {
+      @include mobile {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      width: 1170px;
+    }
+
+    .product-content {
+      img {
+        width: 100%;
+      }
     }
   }
 }

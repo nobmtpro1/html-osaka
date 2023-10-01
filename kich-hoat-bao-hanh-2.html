@@ -43,7 +43,7 @@
             <img src="./images/bg4.png" alt="" class="w-100 h-auto">
         </section>
 
-        <section class="form d-flex justify-content-center">
+        <section class="form d-flex justify-content-center align-items-center flex-column">
             <div class="wrap">
                 <h2 class="h1 text-center text-secondary fw-bold mb-1">KÍCH HOẠT BẢO HÀNH</h2>
                 <p class="fs-6 text-center mb-5">Vui lòng điền đầy đủ các thông tin vào form dưới đây. Thông tin bạn
@@ -52,7 +52,7 @@
                     hệ thống kích hoạt bảo hành điện tử cho sản phẩm của bạn.</p>
                 <form action="">
                     <div class="row mb-4">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 mb-4 mb-lg-0">
                             <label class="form-label fw-bold">Số điện thoại người kích hoạt</label>
                             <input type="text" class=" my-form-control">
                         </div>
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="row mb-4">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 mb-4 mb-lg-0">
                             <label class="form-label fw-bold">Tên khách hàng</label>
                             <input type="text" class=" my-form-control">
                         </div>
@@ -90,14 +90,60 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center">
-                        <button class="btn btn-primary rounded-pill d-inline text-light px-4">Kiểm Tra Bảo Hành</button>
-                    </div>
-                    <div class="text-center text-danger mt-4">
-                        Không tìm thấy sản phẩm
-                    </div>
                 </form>
+
             </div>
+            <div class="product row mt-5 pt-0 pt-lg-5">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="me-0 me-lg-5">
+                        <img src="./images/img1.png" alt="" class="w-100 h-auto">
+                    </div>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="h3 text-secondary fw-bold mb-2">NỒI CƠM ĐIỆN OSAKA RC118T 1.8 LÍT</h3>
+                    <div>Mã sản phẩm: RC-118T</div>
+                    <div class="mb-3">Số Sê-ri: RC-118T10092003102</div>
+                    <div class="h5 text-secondary fw-bold">Sản Phẩm chưa kích hoạt bảo hành</div>
+                    <div class="text-center text-lg-start">
+                        <button class="btn btn-primary rounded-pill d-inline text-light px-4 mt-3 " type="button"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Kích hoạt Bảo hành
+                            ngay</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-primary rounded-pill d-inline text-light px-4">Thông Tin Sản Phẩm <i
+                        class="fa-solid fa-angle-down"></i></button>
+            </div>
+
+            <!-- Popup start -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content rounded-4">
+                        <div class="modal-body py-4">
+                            <div class="text-center text-dark mb-2">
+                                Bạn muốn kích hoạt bảo hảnh sản phẩm sê-ri
+                            </div>
+                            <div class="text-secondary text-center mb-4">RC-118T10092003102</div>
+                            <div class="row">
+                                <div class="col-6 text-end">
+                                    <button type="button" class="btn" data-bs-dismiss="modal">Không</button>
+                                </div>
+                                <div class="col-6 text-start">
+                                    <button type="button"
+                                        class="btn btn-primary rounded-pill d-inline text-light px-4">Kích Hoạt</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Popup end -->
 
         </section>
     </div>
