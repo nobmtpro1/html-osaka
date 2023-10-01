@@ -11957,6 +11957,8 @@ body {
   border-top: 0;
   border-right: 0;
   border-left: 0;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.5);
+  border-radius: 0;
 }
 
 .page-home section.banner {
@@ -12234,14 +12236,6 @@ body {
   object-fit: contain;
 }
 
-.page-kich-hoat-bao-hanh section.banner {
-  width: 100%;
-  height: auto;
-}
-.page-kich-hoat-bao-hanh section.banner img {
-  width: 100%;
-  height: auto;
-}
 .page-kich-hoat-bao-hanh section.form {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -12258,6 +12252,25 @@ body {
   .page-kich-hoat-bao-hanh section.form .wrap {
     width: 95vw;
   }
+}
+
+.page-tra-cuu-bao-hanh {
+  color: #666;
+}
+.page-tra-cuu-bao-hanh section.main {
+  padding: 96px 142px;
+  background: url("../../images/bg6.png");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1025px) {
+  .page-tra-cuu-bao-hanh section.main {
+    padding: 50px 16px;
+  }
+}
+.page-tra-cuu-bao-hanh section.main .right p {
+  margin-bottom: 0px;
 }
 
 .component-header {
@@ -12333,6 +12346,9 @@ body {
     justify-content: flex-start;
     padding-left: 0;
   }
+}
+.component-header .wrap .right .menu li.active a {
+  color: #0072bc;
 }
 .component-header .wrap .right .menu li a {
   color: white;

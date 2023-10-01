@@ -72,6 +72,11 @@
         margin-bottom: 0;
 
         li {
+          &.active {
+            a {
+              color: $secondary;
+            }
+          }
           a {
             @include mobile {
               font-size: 20px;

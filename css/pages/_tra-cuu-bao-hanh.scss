@@ -1,0 +1,20 @@
+.page-tra-cuu-bao-hanh {
+  color: #666;
+
+  section.main {
+    @include mobile {
+      padding: 50px 16px;
+    }
+    padding: 96px 142px;
+    background: url("../../images/bg6.png");
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .right {
+      p {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
