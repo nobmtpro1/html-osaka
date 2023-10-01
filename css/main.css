@@ -12008,7 +12008,6 @@ body {
   font-weight: 500;
   line-height: 150%;
   max-width: 686px;
-  margin-bottom: 100px;
 }
 @media only screen and (max-width: 1025px) {
   .page-home section.banner .description {
@@ -12019,19 +12018,19 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  transform: translateY(-50px);
 }
-.page-home section.banner2 .background {
+.page-home section.banner2 .swiper-slide a {
+  display: block;
+  width: 100vw;
+  height: 27.7vw;
+}
+.page-home section.banner2 .swiper-slide a img {
   width: 100%;
-  height: auto;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  height: 100%;
+  object-fit: contain;
 }
-@media only screen and (max-width: 1025px) {
-  .page-home section.banner2 .background {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+.page-home section.banner2 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fc9903 !important;
 }
 .page-home section.instruct {
   padding-top: 120px;

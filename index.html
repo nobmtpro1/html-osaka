@@ -9,6 +9,7 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -40,25 +41,34 @@
 
     <div class="page-home">
         <section class="banner">
-            <h1 class="title">bảo hành điện tử</h1>
-            <p class="description">Công ty chúng tôi cung cấp giải pháp bảo hành trực tuyến tiên tiến, giúp quản lý và
+            <h1 class="title" data-aos="fade-up">bảo hành điện tử</h1>
+            <p class="description" data-aos="fade-up">Công ty chúng tôi cung cấp giải pháp bảo hành trực tuyến tiên
+                tiến, giúp quản lý và
                 cung cấp dịch vụ bảo
                 hành dễ dàng và hiệu quả.</p>
         </section>
 
-        <section class="banner2">
-            <a href=""> <img src="./images/bg2.png" alt="" class="background"></a>
+        <section class="banner2" data-aos="fade-up">
+
+            <div class="swiper banner-slider" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href=""> <img src="./images/bg2.png" alt="" class="background"></a>
+                    </div>
+                    <div class="swiper-slide"><a href=""><img src="./images/slide2.png" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
 
         <section class="instruct">
             <div class="wrap">
-                <h2 class="title">hướng dẫn <span>bảo hành điện tử</span></h2>
+                <h2 class="title" data-aos="fade-up">hướng dẫn <span>bảo hành điện tử</span></h2>
                 <div class="content">
                     <div class="item left">
-                        <div class="content-title">
+                        <div class="content-title" data-aos="fade-up">
                             Kiểm tra thời hạn bảo hành điện tử (QUÉT mã QR Code)
                         </div>
-                        <div class="text">
+                        <div class="text" data-aos="fade-up">
                             <p>
                                 <b> Bước 1:</b> sử dụng máy ảnh của điện thoại (hoặc Zalo, hoặc app quét mã QR Code bất
                                 kỳ)
@@ -71,13 +81,13 @@
                                 quý khách.
                             </p>
                         </div>
-                        <a href="" class="button">Kiểm tra Ngay</a>
+                        <a href="" class="button" data-aos="fade-up">Kiểm tra Ngay</a>
                     </div>
                     <div class="item right">
-                        <div class="content-title">
+                        <div class="content-title" data-aos="fade-up">
                             Kích hoạt bảo hành điện tử (QUÉT mã QR Code)
                         </div>
-                        <div class="text">
+                        <div class="text" data-aos="fade-up">
                             <p>
                                 <b>Bước 1:</b> sử dụng máy ảnh của điện thoại (hoặc Zalo, hoặc app quét mã QR Code bất
                                 kỳ)
@@ -99,7 +109,7 @@
                                 2) để thông báo thông tin bảo hành chi tiết của sản phẩm.
                             </p>
                         </div>
-                        <a href="" class="button">Kích hoạt Ngay</a>
+                        <a href="" class="button" data-aos="fade-up">Kích hoạt Ngay</a>
                     </div>
                 </div>
             </div>
@@ -108,9 +118,9 @@
 
         <section class="promotion">
             <div class="container wrap">
-                <h2 class="title">chương trình <span>khuyến mãi</span></h2>
+                <h2 class="title" data-aos="fade-up">chương trình <span>khuyến mãi</span></h2>
                 <div class="content">
-                    <div class="swiper promotion-slider">
+                    <div class="swiper promotion-slider" data-aos="fade-up">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><a href=""><img src="./images/slide1.png" alt=""></a></div>
                             <div class="swiper-slide"><a href=""><img src="./images/slide2.png" alt=""></a></div>
@@ -135,19 +145,19 @@
         <section class="top">
             <div class="wrap container">
                 <div class="left">
-                    <div class="title">
+                    <div class="title" data-aos="fade-up">
                         THÔNG TIN
                     </div>
                     <div class="content">
-                        <div> 33 Trần Quý Khoách, P.Tân Định, Q.1, Tp.HCM</div>
-                        <div class="map">
+                        <div data-aos="fade-up"> 33 Trần Quý Khoách, P.Tân Định, Q.1, Tp.HCM</div>
+                        <div class="map" data-aos="fade-up">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3919.2363011009984!2d106.6859403!3d10.7932053!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cd87fcb5eb%3A0x780838cb2ef5e291!2zMzMgVHLhuqduIFF1w70gS2hvw6FjaCwgVMOibiDEkOG7i25oLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1635846659773!5m2!1svi!2s"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                         </div>
 
-                        <div class="row">
+                        <div class="row" data-aos="fade-up">
                             <div class="col">
                                 <p>Tư Vấn Bán Hàng (8h – 17h30 hằng ngày)</p>
                                 <p>(028) 3 9707 238</p>
@@ -161,10 +171,10 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <div class="title">
+                                <div class="title" data-aos="fade-up">
                                     LIÊN KẾT
                                 </div>
-                                <ul class="socials">
+                                <ul class="socials" data-aos="fade-up">
                                     <li>
                                         <a href="https://www.facebook.com/osakavietnam" target="_blank"
                                             title="OSAKA VIỆT NAM">
@@ -197,10 +207,10 @@
                                 </ul>
                             </div>
                             <div class="col">
-                                <div class="title">
+                                <div class="title" data-aos="fade-up">
                                     THANH TOÁN
                                 </div>
-                                <div class="image">
+                                <div class="image" data-aos="fade-up">
                                     <img alt="Các phương thức thanh toán"
                                         src="https://beta.osaka.com.vn/wp-content/themes/blank/assets/images/image5.webp">
                                 </div>
@@ -211,8 +221,8 @@
                 <div class="right">
                     <div class="above">
                         <div class="col">
-                            <div class="title">VỀ OSAKA</div>
-                            <ul class="links">
+                            <div class="title" data-aos="fade-up">VỀ OSAKA</div>
+                            <ul class="links" data-aos="fade-up">
                                 <li><a target="" href="http://localhost/osaka/shop/">Danh mục sản phẩm</a></li>
                                 <li><a target="" href="http://localhost/osaka/gioi-thieu/">Giới thiệu</a></li>
                                 <li><a target="" href="http://localhost/osaka/blogs/">Tin tức</a></li>
@@ -221,8 +231,8 @@
                         </div>
 
                         <div class="col">
-                            <div class="title">CHÍNH SÁCH</div>
-                            <ul class="links">
+                            <div class="title" data-aos="fade-up">CHÍNH SÁCH</div>
+                            <ul class="links" data-aos="fade-up">
                                 <li><a target=""
                                         href="http://localhost/osaka/thong-tin-ve-dieu-kien-giao-dich-chung/">Thông tin
                                         về điều kiện giao dịch chung</a></li>
@@ -242,22 +252,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="title">HỖ TRỢ</div>
-                            <ul class="links">
+                            <div class="title" data-aos="fade-up">HỖ TRỢ</div>
+                            <ul class="links" data-aos="fade-up">
                                 <li><a target="" href="http://localhost/osaka/gioi-thieu/">Giới thiệu</a></li>
                                 <li><a target="" href="http://localhost/osaka/lien-he-2/">Liên hệ</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="below">
-                        <div class="title">
+                        <div class="title" data-aos="fade-up">
                             HÃY ĐỂ LẠI MAIL NHẬN NHIỀU ƯU ĐÃI HƠN
                         </div>
-                        <form action="" class="form" id="newletters-form">
+                        <form action="" class="form" id="newletters-form" data-aos="fade-up">
                             <input type="email" required="" placeholder="Đăng ký email">
                             <button>Đăng ký</button>
                         </form>
-                        <div class="help-text">* Hãy để lại email để nhận được những khuyến mãi mới nhất</div>
+                        <div class="help-text" data-aos="fade-up">* Hãy để lại email để nhận được những khuyến mãi mới nhất</div>
                     </div>
                 </div>
             </div>
@@ -281,6 +291,7 @@
     </footer>
 
     <script src="./js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/swiper.js"></script>
     <script src="./js/main.js"></script>
 </body>
